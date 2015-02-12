@@ -1,1 +1,20 @@
-[]
+[
+  "deadline.coffee",
+  "countdown.coffee",
+  "doer_of_deeds.coffee",
+  "eardropping.coffee",
+  "factoid.coffee",
+  "goodbad.coffee",
+  "grocery-list.coffee",
+  "oblique.coffee",
+  "pomodoro.coffee",
+  "reload.coffee",
+  "responders.coffee",
+  "script.coffee",
+  "secrets.coffee",
+  "sosearch.coffee",
+  "travis.coffee",
+  "trello.coffee",
+  "working-on.coffee",
+  "xkcd.coffee"
+]
