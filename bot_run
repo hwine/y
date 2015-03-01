@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# run local bot connected to irc.mozilla.com
+
+export HUBOT_IRC_ROOMS=#hwine
+export HUBOT_IRC_NICK=${USER}_test
+export HUBOT_IRC_PORT=6697
+export HUBOT_IRC_SERVER=irc.mozilla.org
+export HUBOT_IRC_USESSL=true
+export HUBOT_IRC_DEBUG=true
+export HUBOT_LOG_LEVEL="debug"
+
+bin/hubot -a irc -n test "$@"
